@@ -18,7 +18,7 @@ tests_requires = content("requirements-test.txt", splitlines=True)
 setup(
     name="thebestory",
     description="The Bestory Magic-Powered API Server",
-    version="2017.7.0",
+    version="2017.8.1",
     url="thebestory.com",
 
     author="The Bestory Team",

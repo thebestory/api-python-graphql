@@ -1,0 +1,13 @@
+{
+  "name": "thebestory",
+  "version": "2017.8.1",
+  "description": "The Bestory Magic-Powered Server",
+  "homepage": "https://thebestory.com/",
+  "graphdoc": {
+    "graphiql": "http://92.63.100.195:3000/graphql",
+    "logo": "<img style=\"display:block; margin:0 auto; max-height:100px;\" src=\"https://avatars1.githubusercontent.com/u/22393613?v=4&s=100\">",
+    "endpoint": "http://92.63.100.195:3000/graphql",
+    "output": "./docs/",
+    "baseUrl": "./"
+  }
+}

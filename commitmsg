@@ -1,0 +1,21 @@
+GraphQL branch (from REST)
+
+Server logic
+- Server definition code reformatted.
+- Listeners and middleware lists moved to the server definition code.
+- Server bootstrap file removed in order to rewrite bootstrap functionality in `__main__.py` file.
+- Config module behavior now is similar to the package behavior.
+- All REST routes removed.
+- GraphQL schema added.
+- Model module - model definition and some standart python types for models added.
+- Utils module - Snowflake, JWT, Password.
+- Stores were rewritten to the models.
+
+Data
+- Removed `icon` field from the Topic schema. Icons can be fetched via special static URL, with a slug of the topic as an identifier.
+- Seeding code removed. Now seeding can be performed via an actual API, with a script.
+
+Other
+- SQL schema reformatted (removed all fields parameters and comments).
+- Snowflake ID generator moved to `tbs` module.
+- Requirements file updated. Added `graphene`, `graphql-core`, `sanic_graphql` and `promise` packages in order to GraphQL code support.

@@ -1,0 +1,11 @@
+asyncpg
+asyncpgsa
+graphene>=2.0.dev
+graphql-core>=2.0.dev
+passlib[argon2,bcrypt]
+pendulum
+promise
+python-jose
+sanic
+sanic_graphql
+sqlalchemy
